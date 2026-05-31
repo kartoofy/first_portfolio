@@ -181,6 +181,26 @@ transition: 0.2s ease;
 cursor: pointer;
 }
 
+.home-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.home-buttons .btn{
+    margin-top: 0;
+}
+
+.btn-icon{
+    width: 3rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem;
+}
+
 p{
     font-size: 16px;
     text-align: justify;
@@ -294,8 +314,8 @@ box-shadow: 0 0  10px #BFCEB2;
 }
 
 .service-page{
-    align-items: flex-start;
-    padding-top: 16rem;
+    align-items: center;
+    padding-top: 0;
 }
 
 .service-content h1{
@@ -362,6 +382,10 @@ box-shadow: 0 0  10px #BFCEB2;
 
 .service-content p:last-of-type{
     margin-top: 0.8rem;
+}
+
+.service-page .btn{
+    margin-top: 2rem;
 }
 
 .experience-content{

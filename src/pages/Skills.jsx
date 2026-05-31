@@ -6,7 +6,7 @@ function Skills() {
         <p>Technical skills I use in projects and data analysis:</p>
         <ul className="skill-list">
           <li>
-            <i className="fa-solid fa-database"></i> SQL
+            <i className="fa-solid fa-database"></i> SQL <small>PostgreSQL</small>
           </li>
           <li>
             <i className="fa-brands fa-python"></i> Python <small>Pandas · NumPy</small>
@@ -21,7 +21,7 @@ function Skills() {
             <i className="fa-brands fa-react"></i> React
           </li>
           <li>
-            <i className="fa-solid fa-language"></i> Languages <small>English · Arabic · German B1</small>
+            <i className="fa-solid fa-language"></i> Languages <small>English · Arabic · German A2</small>
           </li>
         </ul>
       </div>

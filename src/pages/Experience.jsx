@@ -44,7 +44,7 @@ function Experience() {
           <div className="project-card">
             <h3>ChildCare</h3>
             <p>
-              Flutter app for Bachelor graduation: a mini app connecting clinics and new mothers and replacing local health records.
+              Flutter app for Bachelor graduation: a mini app connecting clinics and new mothers and replacing the Algerian outdated health records for children.
             </p>
             <a href="https://github.com/kartoofy/ChildCare" target="_blank" rel="noreferrer" className="btn">
               GitHub

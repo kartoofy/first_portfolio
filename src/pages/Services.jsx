@@ -1,47 +1,48 @@
 function Services() {
   return (
     <section className="home service-page">
-      <div className="home-content service-content">
-        <div className="service-intro">
-          <h1>Data Analysis Services</h1>
-          <p>I analyze your data, build polished dashboards, and deliver insights that match your goals.</p>
+      <div className="home-content experience-content">
+        <h1>Services</h1>
+        <p>
+          From data cleaning and dashboards to AI-based classification, clustering, and pattern discovery, I help your dataset reveal meaningful insights.
+        </p>
+
+        <div className="projects-grid">
+          <div className="project-card">
+            <h3>AI Classification & Clustering</h3>
+            <p>
+              Run your dataset through machine learning models to discover groups, classify records, and reveal hidden relations across features.
+            </p>
+          </div>
+
+          <div className="project-card">
+            <h3>Data Cleaning</h3>
+            <p>
+              Transform messy raw data into clean, structured datasets that are ready for reliable modeling and reporting.
+            </p>
+          </div>
+
+          <div className="project-card">
+            <h3>Dashboard Design</h3>
+            <p>
+              Create clear dashboards that turn your KPIs and analytics into actionable insights for stakeholders.
+            </p>
+          </div>
+
+          <div className="project-card">
+            <h3>Insight Reporting</h3>
+            <p>
+              Deliver polished reports with findings, trends, and recommendations tailored to your business or research goals.
+            </p>
+          </div>
         </div>
 
-        <div className="services-grid">
-          <article className="service-card">
-            <div className="service-card-icon">
-              <i className="fa-solid fa-database"></i>
-            </div>
-            <h2>Data Cleaning</h2>
-            <p>Transform messy raw data into clean, structured datasets ready for reliable analysis.</p>
-          </article>
-
-          <article className="service-card">
-            <div className="service-card-icon">
-              <i className="fa-solid fa-chart-pie"></i>
-            </div>
-            <h2>Dashboard Design</h2>
-            <p>Create interactive dashboards that make insights easy to read and act upon.</p>
-          </article>
-
-          <article className="service-card">
-            <div className="service-card-icon">
-              <i className="fa-solid fa-file-lines"></i>
-            </div>
-            <h2>Insight Reporting</h2>
-            <p>Deliver clear reports with recommendations tailored to your business goals.</p>
-          </article>
-
-          <article className="service-card">
-            <div className="service-card-icon">
-              <i className="fa-solid fa-chart-line"></i>
-            </div>
-            <h2>Performance Tracking</h2>
-            <p>Monitor key metrics and trends so your team can make faster, smarter decisions.</p>
-          </article>
-        </div>
-
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=a7med2005112233@gmail.com" className="btn" target="_blank" rel="noreferrer">
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=a7med2005112233@gmail.com"
+          className="btn"
+          target="_blank"
+          rel="noreferrer"
+        >
           Email me
         </a>
       </div>
